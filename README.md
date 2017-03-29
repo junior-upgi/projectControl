@@ -1,6 +1,6 @@
-# smartsheet 專案進度管理系統
+# 產品開發專案進度管理系統
 
-> bootstrap, vue.js and express.js
+> bootstrap, vue.js, express.js and smartsheet API
 
 ## Build Setup
 

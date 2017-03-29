@@ -1,10 +1,10 @@
 {
-    "name": "smartsheet",
-    "description": "project smartsheet with bootstrap, vue.js and express.js",
+    "name": "projectControl",
+    "description": "project development schedule control app with bootstrap, vue.js and express.js and smartsheet API",
     "main": "public/main.js",
     "authors": ["Chia-Yu Tsai"],
     "license": "MIT",
-    "homepage": "https://github.com/junior-upgi/smartsheet",
+    "homepage": "https://github.com/junior-upgi/projectControl",
     "private": true,
     "ignore": [
         "**/.*",
