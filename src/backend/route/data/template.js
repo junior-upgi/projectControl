@@ -348,3 +348,21 @@ router.route('/data/purchaseOrder')
 
 module.exports = router;
 */
+
+const express = require('express');
+/*
+const moment = require('moment-timezone');
+const Treeize = require('treeize');
+const uuidV4 = require('uuid/v4');
+*/
+// const serverConfig = require('../../serverConfig.js');
+// const utility = require('../../utility.js');
+const tokenValidation = require('../../middleware/tokenValidation.js');
+
+const router = express.Router();
+
+router.get('/template', tokenValidation, (request, response, next) => {
+    return response.status(200);
+});
+
+module.exports = router;

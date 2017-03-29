@@ -1,14 +1,13 @@
-// import axios from 'axios';
+import axios from 'axios';
 // import moment from 'moment-timezone';
 
-/*
 import {
-    broadcastServiceUrl,
-    defaultBot,
-    employeeChatGroup,
-    serverUrl
+    // broadcastServiceUrl,
+    // defaultBot,
+    // employeeChatGroup,
+    serverUrl,
+    smartsheetUrl
 } from '../clientConfig.js';
-*/
 
 export default {
     componentErrorHandler: componentErrorHandler,
@@ -62,5 +61,10 @@ function componentErrorHandler(context, errorObject) {
 }
 
 function initData(context) {
-    return Promise.resolve('test');
+    const initOptList = [{
+        method: 'get',
+        url: `${serverUrl}/data/projectControl/sheets`,
+        headers: { 'x-access-token': sessionStorage.token }
+    }];
+    return Promise.all(initOptList.map(axios));
 }

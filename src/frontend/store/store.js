@@ -21,7 +21,9 @@ export const store = new Vuex.Store({
         role: null, // 'admin', 'rnd', 'sales', 'prod'
         token: null, // jwt token
         // working data
-        userData: {} // used to hold the user information returned from the authentication process
+        userData: {}, // used to hold the user information returned from the authentication process
+        // smartsheet data
+        sheets: {}
     }
 });
 

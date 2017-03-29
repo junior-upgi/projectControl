@@ -1,5 +1,5 @@
 // system configuration
-export const systemReference = 'smartsheet';
+export const systemReference = 'projectControl';
 export const development = true;
 export const administrator = 241630569; // telegram account of system admin
 export const uploadDir = 'upload';
@@ -22,7 +22,8 @@ export function broadcastServerUrl() {
 }
 
 // smartsheet
-export const smartsheetToken = '696io5sv0dcqj8korwwgjob9os';
+export const smartsheetUrl = 'https://api.smartsheet.com/2.0';
+export const smartsheetToken = 'Bearer ' + '696io5sv0dcqj8korwwgjob9os';
 
 // ldap
 export const ldapServerUrl = 'ldap://upgi.ddns.net:389';

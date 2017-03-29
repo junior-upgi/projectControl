@@ -1,4 +1,4 @@
-# smartsheet 專案進度管理系通
+# smartsheet 專案進度管理系統
 
 > bootstrap, vue.js and express.js
 

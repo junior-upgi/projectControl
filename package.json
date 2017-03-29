@@ -54,7 +54,7 @@
         "vue-router": "^2.3.0",
         "vuex": "^2.2.1",
         "winston": "^2.3.1",
-        "xlsx": "^0.9.6"
+        "xlsx": "^0.9.7"
     },
     "devDependencies": {
         "babel-cli": "^6.24.0",

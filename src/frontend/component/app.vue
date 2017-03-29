@@ -31,8 +31,12 @@ export default {
         ...mapGetters({ activeView: 'activeView' })
     },
     methods: {
-        ...mapActions({ componentErrorHandler: 'componentErrorHandler' }),
+        ...mapActions({
+            componentErrorHandler: 'componentErrorHandler',
+            initData: 'initData'
+        }),
         ...mapMutations({
+            buildStore: 'buildStore',
             redirectUser: 'redirectUser',
             restoreToken: 'restoreToken'
         })
@@ -49,8 +53,7 @@ export default {
                 .then((responseList) => {
                     this.buildStore(responseList);
                     this.redirectUser();
-                })
-                .catch((error) => {
+                }).catch((error) => {
                     this.componentErrorHandler({
                         component: 'app',
                         method: 'created',

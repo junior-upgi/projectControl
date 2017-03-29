@@ -3,7 +3,7 @@ import express from 'express';
 import jwt from 'jsonwebtoken';
 import ldap from 'ldapjs';
 
-import { ldapServerUrl, passphrase, mssqlConfig, systemReference } from '../../serverConfig.js';
+import { ldapServerUrl, passphrase, mssqlConfig, smartsheetToken, systemReference } from '../../serverConfig.js';
 import { endpointErrorHandler, logger } from '../../utility.js';
 
 const router = express.Router();
@@ -38,6 +38,7 @@ router.post('/login', (request, response) => {
                         logger.info(`${loginId} ${systemReference} access privilege validated`);
                         const payload = resultset[0];
                         payload.loginId = loginId;
+                        payload.smartsheetToken = smartsheetToken;
                         const token = jwt.sign(payload, passphrase(), { expiresIn: 7200 });
                         logger.info(`${loginId} login procedure completed`);
                         return response.status(200).json({ token: token });
