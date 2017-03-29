@@ -4,7 +4,7 @@
             <div class="page-header" style="margin-top:15px;">
                 <h2 style="margin-top:0px;">
                     <span style="white-space:nowrap;">統義玻璃股份有限公司</span>
-                    <small style="white-space:nowrap;">boilerplate project</small>
+                    <small style="white-space:nowrap;">專案開發進度控管系統</small>
                 </h2>
             </div>
         </div>

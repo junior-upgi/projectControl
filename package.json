@@ -1,19 +1,19 @@
 {
-    "name": "boilerplate",
+    "name": "smartsheet",
     "version": "0.0.1",
-    "description": "project boilerplate with bootstrap, vue.js and express.js",
+    "description": "project smartsheet with bootstrap, vue.js and express.js",
     "author": "Chia-Yu Tsai",
     "private": true,
     "main": "build/server.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/junior-upgi/boilerplate.git"
+        "url": "git+https://github.com/junior-upgi/smartsheet.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/junior-upgi/boilerplate/issues"
+        "url": "https://github.com/junior-upgi/smartsheet/issues"
     },
-    "homepage": "https://github.com/junior-upgi/boilerplate#readme",
+    "homepage": "https://github.com/junior-upgi/smartsheet#readme",
     "engines": {
         "node": ">=6.9.0"
     },
@@ -48,7 +48,6 @@
         "request": "^2.81.0",
         "request-promise": "^4.2.0",
         "rimraf": "^2.6.1",
-        "serve-favicon": "^2.4.2",
         "treeize": "^2.0.2",
         "uuid": "^3.0.1",
         "vue": "^2.2.6",
@@ -99,9 +98,9 @@
         "watchify": "^3.9.0"
     },
     "config": {
-        "appurl": "http://localhost:9007/boilerplate/index.html",
-        "serverLintingReportUrl": "http://localhost:9007/boilerplate/lintingReport/server.html",
-        "clientLintingReportUrl": "http://localhost:9007/boilerplate/lintingReport/client.html"
+        "appurl": "http://localhost:9007/smartsheet/index.html",
+        "serverLintingReportUrl": "http://localhost:9007/smartsheet/lintingReport/server.html",
+        "clientLintingReportUrl": "http://localhost:9007/smartsheet/lintingReport/client.html"
     },
     "scripts": {
         "rebuild:cleanup": "run-p client:cleanup server:cleanup cleanup:log cleanup:misc",

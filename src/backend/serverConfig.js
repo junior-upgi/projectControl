@@ -1,5 +1,5 @@
 // system configuration
-export const systemReference = 'boilerplate';
+export const systemReference = 'smartsheet';
 export const development = true;
 export const administrator = 241630569; // telegram account of system admin
 export const uploadDir = 'upload';

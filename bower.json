@@ -1,10 +1,10 @@
 {
-    "name": "boilerplate",
-    "description": "project boilerplate with bootstrap, vue.js and express.js",
+    "name": "smartsheet",
+    "description": "project smartsheet with bootstrap, vue.js and express.js",
     "main": "public/main.js",
     "authors": ["Chia-Yu Tsai"],
     "license": "MIT",
-    "homepage": "https://github.com/junior-upgi/boilerplate",
+    "homepage": "https://github.com/junior-upgi/smartsheet",
     "private": true,
     "ignore": [
         "**/.*",
@@ -13,6 +13,6 @@
     ],
     "dependencies": {
         "bootstrap": "^3.3.7",
-        "jquery": "^3.1.1"
+        "jquery": "^3.2.1"
     }
 }

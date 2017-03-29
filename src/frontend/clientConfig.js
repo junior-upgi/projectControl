@@ -1,4 +1,5 @@
-export const systemReference = 'boilerplate';
+export const systemReference = 'smartsheet';
+export const systemName = '專案開發進度管理系統'
 const development = true;
 const serverPort = 9007;
 
